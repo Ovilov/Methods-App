@@ -1,0 +1,38 @@
+.header {
+  background-color: var(--background-black-color);
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sitenav {
+  margin-top: 32px;
+  margin-bottom: 36px;
+}
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 34px;
+}
+
+.sitenav__link {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  transition: var(--transition-time);
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+.header__basket-btn {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+#active {
+  color: var(--primary-color);
+}

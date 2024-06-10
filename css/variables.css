@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #d87d4a;
+  --primary-light-color: #fbaf85;
+  --primary-black-color: #000000;
+  --secondary-black-color: #101010;
+  --background-black-color: #141414;
+  --gray-color: #f1f1f1;
+  --slate-color: #fafafa;
+  --white-color: #ffffff;
+  --main-font-family: "Manrope", Arial, sans-serif;
+  --transition-time: 1s;
+}
